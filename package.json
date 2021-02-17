@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/israelvarela/Google-Book-Search-MERN-App/issues"
   },
-  "homepage": "https://github.com/israelvarela/Google-Book-Search-MERN-App#readme"
+  "homepage": "https://github.com/israelvarela/Google-Book-Search-MERN-App#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }

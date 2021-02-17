@@ -9,9 +9,9 @@ This makes our code a lot more cleaner.
 
 module.exports = () => {
  config(); //invoking the dotenv config here
- const uri = process.env.DB_URI;
+ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks"
 
- connect(uri, {
+ mongoose.connect(MONGODB_URI, {
         dbName: process.env.DB_NAME,
         user: process.env.DB_USER,
         pass: process.env.DB_PASS,
