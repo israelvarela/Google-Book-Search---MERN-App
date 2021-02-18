@@ -1,5 +1,6 @@
 const { connect, connection } = require('mongoose');
 const { config } = require('dotenv'); 
+require('./models/Posts');
 
 /*const {___} = require(<package>) is called Destructuring. 
 This makes our code a lot more cleaner.
