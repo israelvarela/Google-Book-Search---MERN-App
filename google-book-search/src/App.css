@@ -45,7 +45,7 @@
 
 header {
   padding: 30px 0 30px 0;
-  background: #343a40;
+  background: #2D88FF;
   color: #fff;
   text-align: center;
 }
@@ -53,5 +53,7 @@ header {
 header h1 {
   display: inline;
   margin-left: 15px;
-  font-weight: 300;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
 }
